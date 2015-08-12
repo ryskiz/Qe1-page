@@ -1,0 +1,141 @@
+html {
+            background:url(img/queens.jpg) no-repeat center fixed;
+            background-size: cover;
+
+         }
+         nav {
+            margin: 0;
+            padding: 0;
+            height: 27px;
+            background-color: white;
+            opacity: .7;
+            width: 100%;
+            position: relative;
+            text-align: center;
+         }
+          nav {
+            height: 30px;
+            width:100%;
+            margin: 0 auto;
+            text-align: center;
+         }
+          nav ul li {
+            font-size: 1em;
+            text-align: center;
+            font-family: 'Bitter', serif;
+            list-style-type:none;
+            text-decoration: none;
+            display: inline-block;
+            color: black;
+            border-right: 1px solid;
+         }
+         nav ul li:first-of-type {
+            border-left: 1px solid;
+         }
+         nav ul li:hover {
+            color:darkgrey;
+            font-size: .98em;
+         }
+         a {
+            color: black;
+            font-variant: normal;
+            text-decoration: none;
+         }
+         button {
+            border-radius: 20px;
+            border-color: black;
+            width:100%;
+            font-size: 80px;
+            font-family:;
+            text-align: center;
+            font-family: 'Bitter', serif;
+            color: black;
+            background-color: white;
+            opacity:.95;
+         }
+
+
+         h1 {
+            font-weight: bolder;
+            font-size: 13em;
+            font-weight: bolder;
+            font-family: 'Abel', sans-serif;
+            color: #9900CC;
+            background-color:black;
+            line-height: 1em;
+            opacity:.7;
+            text-align: right;
+            padding-right: 20%;
+            font-weight: bolder;
+
+         }
+         table {
+            padding-top: 10em;
+            background-color:white;
+            opacity: .95;
+         }
+         table td {
+            text-align: center;
+            width: 50%;
+            padding-bottom: 5em;
+            font-size: 1.4em;
+            padding-right:2em;
+            padding-left:2em;
+         }
+
+         table header {
+            font-size: 2em;
+            font-family: 'Bitter', serif;
+         }
+         img {
+            padding-bottom: 3em;
+            padding-top:3em;
+            position: center;
+         }
+         h2 {
+            text-align: center;
+            font-size: 4em;
+            font-family: 'Bitter', serif;
+
+         }
+         div {
+            background-color:white;
+            opacity: .95;
+         }
+         ol li {
+            list-style-type: none;
+            display: inline-block;
+            text-align: center;
+            width:500px;
+            line-height: 2em;
+            font-size: 1.5em;
+
+
+         }
+         footer p {
+            background-color: black;
+            color:white;
+            text-align: center;
+            font-family: 'Bitter', serif;
+            font-size: 1em;
+            line-height: 29px;
+            text-indent: 2px;
+
+         }
+         p {
+            font-family: 'Bitter', serif;
+            font-size: 4em;
+            line-height: 2em;
+            text-align:center;
+            font-weight:bolder;
+            color:white;
+            background-color: black;
+            opacity:.7;
+            float:left;
+            width: 100%;
+         }
+
+         a {
+            color:black;
+
+         }
