@@ -41,6 +41,18 @@ html {
             font-variant: normal;
             text-decoration: none;
          }
+         .butter {
+            font-family: 'Bitter', serif;
+            font-size: 1em;
+            line-height: 2em;
+            text-align:center;
+            font-weight:bolder;
+            color:white;
+            background-color: black;
+            opacity:.7;
+
+
+         }
          button {
             border-radius: 20px;
             border-color: black;

@@ -53,9 +53,10 @@ html {
 
 
          }
+
          div {
             background-color: white;
-            opacity: .8;
+            opacity: .9;
             padding-bottom: 3px;
             padding-right: 4em;
          }
@@ -70,13 +71,14 @@ html {
             background-color: white;
          }
          div ul li{
-            font-size: 5em;
+            font-size: 2em;
             line-height:3em;
             font-family: 'Bitter', sans-serif;
             font-weight: bolder;
             position: relative ;
             width: 100%;
-            text-align: center;
+            text-align: left;
+            padding-left: none;
             list-style-type: none;
          }
          div ul li ol li {
@@ -91,7 +93,7 @@ html {
 
          h1 {
             font-weight: bolder;
-            font-size: 13em;
+            font-size: 2em;
             font-weight: bolder;
             font-family: 'Abel', sans-serif;
             color: #9900CC;
@@ -102,6 +104,30 @@ html {
             padding-right: 20%;
             font-weight: bolder;
 
+         }
+         .mc_embed_signup {
+            padding-left: 20px;
+            font-size: 2em;
+         }
+         .win {
+            font-size: .5em;
+            line-height: .5em;
+            font-color: black;
+         }
+         .email {
+            font-size: .5em;
+         }
+         .button {
+            padding:none;
+            width: 30%;
+            height: 50%;
+            border-radius: 10px;
+            background-color: white;
+            font-size: 15px;
+
+         }
+         .target {
+            color: purple;
          }
          footer p {
             background-color: black;
