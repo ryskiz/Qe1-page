@@ -50,7 +50,18 @@ html {
             color:white;
             background-color: black;
             opacity:.7;
-
+            text-decoration: none;
+         }
+         .muffin {
+            font-family: 'Bitter', serif;
+            font-size: 1em;
+            line-height: 2em;
+            text-align:center;
+            font-weight:bolder;
+            color:white;
+            background-color: black;
+            opacity:.7;
+            text-decoration: none;
 
          }
          button {
