@@ -64,6 +64,14 @@ html {
             text-decoration: none;
 
          }
+         .switch {
+            color: black;
+            text-decoration: none;
+         }
+         .back {
+            color: black;
+            text-decoration: none;
+         }
          div {
             background-color: white;
             opacity: .8;
