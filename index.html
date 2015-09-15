@@ -5,6 +5,8 @@
       <title>QE1 House</title>
       <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
       <link href='http://fonts.googleapis.com/css?family=Bitter:700' rel='stylesheet' type='text/css'>
+      <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
       <link rel="stylesheet" href="base2.css">
 
       <style>
@@ -17,12 +19,17 @@
             text-align: center;
          }
       </style>
+      <script>
+      $(function() {
+         $("menu").menu();
+      });
+      </script>
    </head>
    <body>
    <!-- put this in link when done editing and ready for github... href="https://cdn.rawgit.com/jessicamathews/qe1House/master/base2.css" -->
       <nav class="navigation">
          <ul>
-            <li><a href="index.html">Home</a></li>
+            <li id="menu"><a href="index.html">Home</a></li>
             <li><a href="DonateMerch.html">Donate + Merch</a></li>
             <li><a href="QE1CurrentMembers.html">Current Members</a></li>
             <li><a href="QE1AlumnaePage.html">Alumnae</a></li>
