@@ -3,9 +3,15 @@
    <head>
       <meta charset="utf-8">
       <title>QE1 House</title>
+      <!--<link rel="stylesheet" href="css/base2.css">-->
       <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
       <link href='http://fonts.googleapis.com/css?family=Bitter:700' rel='stylesheet' type='text/css'>
-     <link rel="stylesheet" type="text/css" href="css/base3.css">
+      <!--<link rel="stylesheet" href="css/base2.css">-->
+      <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="../css/index.css">
+      <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+      <script src="../js/app.js"></script>
+      <script src="../bower_components/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js"></script>
      <style>
       html {
             background:url(https://cdn.rawgit.com/jessicamathews/qe1House/master/queens.JPG) no-repeat center fixed;
@@ -15,15 +21,37 @@
       </style>
    </head>
    <body>
-      <nav class="navigation">
-         <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="DonateMerch.html">Donate + Merch</a></li>
-            <li><a href="QE1CurrentMembers.html">Current Members</a></li>
-            <li><a href="QE1AlumnaePage.html">Alumnae</a></li>
-            <li><a href="September.html">Events + Calendar</a></li>
+     <div class="navbar-fixed-top">
+         <ul class="nav nav-pills">
+         <li class="dropdown">
+            <a href="../index.html" class="dropdown-toggle" data-toggle="dropdown">Home</a>
+            <ul class="dropdown-menu">
+            <li><a href="#">About</a></li>
+            <li><a href="#">History</a></li>
+            <li><a href="#">Values</a></li>
+            </ul>
+            </li>
+            <li><a href="../pages/DonateMerch.html">Donate + Merch</a></li>
+            <li class="dropdown">
+            <a href="../pages/QE1CurrentMembers.html" class="dropdown-toggle" data-toggle="dropdown">Current Members</a>
+            <ul class="dropdown-menu">
+               <li><a href="#">Exec Team</a></li>
+               <li><a href="#">Associates</a></li>
+               <li><a href="#">Advisors</a></li>
+               <li><a href="#">Queens</a></li>
+            </ul>
+            </li>
+            <li class="dropdown">
+            <a href="../pages/QE1AlumnaePage.html" class="dropdown-toggle" data-toggle="dropdown">Alumnae</a>
+            <ul class="dropdown-menu">
+            <li><a href="#">Featured Alumnae</a></li>
+            <li><a href="#">All Alumnae</a></li>
+            </ul>
+            </li>
+            <li><a href="../pages/September.html">Events + Calendar</a></li>
          </ul>
-      </nav>
+      </div>
+      </div>
    <h1>Current<br> Members</h1>
    <button>Meet the Exec Team</button>
       <table>
@@ -31,13 +59,13 @@
             <td>
                <header>The Pint-Sized President</header>
                Leah Contreras<br>
-               <img src="assets/Leah.jpg" alt="" width="350" height="250"><br>
+               <img src="../assets/Leah.jpg" alt="" width="350" height="250"><br>
                She's in charge of the execution of the administrative and interpersonal aspects of the house, the empowerment of the executive team, and she's your representative on the council. You should talk to her about the British Monarchy, Cole Porter, and the art of making tea.
             </td>
             <td>
                <header>The Helmsman</header>
                Abby Narbe<br>
-               <img class="Abby" src="assets/Abby.jpg" alt="" width="250"><br>
+               <img class="Abby" src="../assets/Abby.jpg" alt="" width="250"><br>
                She's in charge of welcoming the freshmen into the House and helping them adjust to New York City. You should talk to her about coffee, Gilmore Girls/ The Office, and Snow.
             </td>
          </tr>
@@ -45,13 +73,13 @@
             <td>
                <header>The Chamberlain</header>
                Darien Evans<br>
-               <img src="assets/Darien.jpg" alt="" width="325"><br>
+               <img src="../assets/Darien.jpg" alt="" width="325"><br>
                She's here to lead our house in the pursuit of honor and the formation of authentic relationships. Talk to her about North Carolina, James Taylor, candy, the Olympics, and Jane Austen and/or Alexandre Dumas works.
             </td>
             <td>
                <header>The Scholar</header>
                Alli O'Donnell<br>
-               <img src="assets/Alli.PNG" alt="" width="300"><br>
+               <img src="../assets/Alli.PNG" alt="" width="300"><br>
                She's hear to help you figure out your education and guide you into academic well-being. Talk to her about A Room with a View, Ben Howard and Penny and Sparrow, espresso, long sunset walks in the park, and her cat, Professor Charles Finnius Flockmocker III.
             </td>
          </tr>
@@ -62,13 +90,13 @@
             <td>
                <header>Archbishop of Holy Intercession</header>
                Annette Turnbaugh<br>
-               <img src="assets/Annette.jpg.jpeg" alt="" width="300"><br>
+               <img src="../assets/Annette.jpg.jpeg" alt="" width="300"><br>
                She will lead QE1 bible study and other spiritual endeavors! Talk to her about finding a church, hosting dinner parties, procrasti-baking, grilled cheese, food in general, and how to takeover the dance floor.
             </td>
             <td>
                <header>Dame High Commander of Conquests</header>
                Morgan Siedell<br>
-               <img src="assets/Morgan.JPG" alt="" width="200"><br>
+               <img src="../assets/Morgan.JPG" alt="" width="200"><br>
                She is in charge of corralling the troops for each competition and keeping the morale soarin’. Talk to her about Bob Dylan, Country Music, and running. Ask her to wink if you want a good laugh.
             </td>
          </tr>
@@ -76,13 +104,13 @@
             <td>
                <header>Master of the Coin</header>
                Tendai Savage<br>
-               <img src="assets/tendai.JPG" alt="" width="250"><br>
+               <img src="../assets/tendai.JPG" alt="" width="250"><br>
                She's the treasurer of the house and deals with all things money related. You should talk to her about anything comic book related and about where to shop.
             </td>
             <td>
                <header>Master General of Heroic Endeavors</header>
                Julia Keesler<br>
-               <img src ="assets/Julia.JPG" alt="" width="300"><br>
+               <img src ="../assets/Julia.JPG" alt="" width="300"><br>
                She's in charge of organizing and keeping queens  up-to-date on everything that is happening concerning Interregnum. Talk to her about ice-cream, puppies, house concerts and all things "vintage".
             </td>
          </tr>
@@ -90,13 +118,13 @@
             <td>
                <header>Dame High Commissioner of Notable Gatherings</header>
                Lis Stanford<br>
-               <img src="assets/Lis.JPG" alt="" width="240"><br>
+               <img src="../assets/Lis.JPG" alt="" width="240"><br>
                She has answers to your questions about House Events. Talk to her about film and/or Wes Anderson, cats, comedy, and anything dealing with the fine arts. She also does impressions.
             </td>
             <td>
                <header>Lady Chancellor and Private Secretary to the Sovereign</header>
                Mary Losiak<br>
-               <img src="assets/Mary.jpg" alt="" width="345"><br>
+               <img src="../assets/Mary.jpg" alt="" width="345"><br>
                She's keeping in touch with Alumnae and helping start a scholarship fund for girls in the House! You should talk to her about Poland, 501c3s, and street art.
             </td>
          </tr>
@@ -104,7 +132,7 @@
             <td>
                <header>Keeper of the Privy Seal</header>
                Jessica Mathews<br>
-               <img src="assets/jess.jpg" alt="" width="300"><br>
+               <img src="../assets/jess.jpg" alt="" width="300"><br>
                She is in charge of keeping you up-to-date with what is going on in the House by creating and maintaining this website and updating QE1's social media presence. You should talk to her about live music, Chick-Fil-A Sauce, Australian coffee, and how to fall off a zipline.
             </td>
          </tr>
@@ -115,13 +143,13 @@
             <td>
                <header>Staff Advisor</header>
                Shelli Cline<br>
-               <img src="assets/Shelli.jpg" alt="" width="300"><br>
+               <img src="../assets/Shelli.jpg" alt="" width="300"><br>
                She guides the development and management of the entire House System and the Statesmanship Institute of student leaders. In her free time, she likes to read, travel, play cards, spend time with friends, and generally have fun.
             </td>
             <td>
                <header>Associate Advisor</header>
                Laura Merritt<br>
-               <img src="assets/Laura.jpg" alt="" width="250"><br>
+               <img src="../assets/Laura.jpg" alt="" width="250"><br>
                She lives in Queens and knows where all the good food is at. She is a member of Trinity Grace Church Queens and volunteers on the leadership team. She has a heart for mentoring and is currently working on a program for the women at King's.
             </td>
          </tr>
@@ -129,7 +157,7 @@
             <td>
                <header>Faculty Advisor</header>
                David Talcott<br>
-               <img src="assets/Talcott.jpg" alt="" width="300"><br>
+               <img src="../assets/Talcott.jpg" alt="" width="300"><br>
                 He has been the advisor for the House of QE1 since his first month on campus in Fall of 2011, when Annie Laurie Miller, the sister of one of his college roommates, insisted he take the job. He lives way out in New Jersey, and he and his wife love to have students over to their home for hikes, hot chocolate by the fire, and all sorts of festivities. His office door is always open, so drop by and say hi!
 
             </td>
@@ -201,7 +229,7 @@
       </p>
 
       <footer>
-         <p>| &copy; Jessica Mathews |<a class="muffin" href="updates.html"> Contact |</a> <a class="butter" href="updates.html">Weekly Updates </a>|</p>
+         <p>| &copy; Jessica Mathews |<a class="muffin" href="html/updates.html"> Contact |</a> <a class="butter" href="html/updates.html">Weekly Updates </a>|</p>
       </footer>
 
 

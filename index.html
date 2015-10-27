@@ -3,74 +3,82 @@
    <head>
       <meta charset="utf-8">
       <title>QE1 House</title>
-      <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
-      <link href='http://fonts.googleapis.com/css?family=Bitter:700' rel='stylesheet' type='text/css'>
-      <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-      <link rel="stylesheet" href="base2.css">
-
-      <style>
-         html {
-            background:url(https://cdn.rawgit.com/jessicamathews/qe1House/master/queens.JPG) no-repeat center fixed;
-            background-size: cover;
-         }
-         h1 {
-            font-size: 13em;
-            text-align: center;
-         }
-      </style>
-      <script>
-      $(function() {
-         $("menu").menu();
-      });
-      </script>
+      <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="css/index.css">
+      <link href='https://fonts.googleapis.com/css?family=Old+Standard+TT' rel='stylesheet' type='text/css'>
+      <script src="bower_components/jquery/dist/jquery.min.js"></script>
+      <script src="js/app.js"></script>
+      <script src="bower_components/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js"></script>
    </head>
    <body>
    <!-- put this in link when done editing and ready for github... href="https://cdn.rawgit.com/jessicamathews/qe1House/master/base2.css" -->
-      <nav class="navigation">
-         <ul>
-            <li id="menu"><a href="index.html">Home</a></li>
-            <li><a href="DonateMerch.html">Donate + Merch</a></li>
-            <li><a href="QE1CurrentMembers.html">Current Members</a></li>
-            <li><a href="QE1AlumnaePage.html">Alumnae</a></li>
-            <li><a href="September.html">Events + Calendar</a></li>
+   <div class="container-fluid">
+   <div class="navbar-fixed-top">
+         <ul class="nav nav-pills">
+         <li class="dropdown">
+            <a href="index.html" class="dropdown-toggle" data-toggle="dropdown">Home</a>
+            <ul class="dropdown-menu">
+            <li><a href="#">About</a></li>
+            <li><a href="#">History</a></li>
+            <li><a href="#">Values</a></li>
+            </ul>
+            </li>
+            <li><a href="pages/DonateMerch.html">Donate + Merch</a></li>
+            <li class="dropdown">
+            <a href="pages/QE1CurrentMembers.html" class="dropdown-toggle" data-toggle="dropdown">Current Members</a>
+            <ul class="dropdown-menu">
+               <li><a href="#">Exec Team</a></li>
+               <li><a href="#">Associates</a></li>
+               <li><a href="#">Advisors</a></li>
+               <li><a href="#">Queens</a></li>
+            </ul>
+            </li>
+            <li class="dropdown">
+            <a href="pages/QE1AlumnaePage.html" class="dropdown-toggle" data-toggle="dropdown">Alumnae</a>
+            <ul class="dropdown-menu">
+            <li><a href="#">Featured Alumnae</a></li>
+            <li><a href="#">All Alumnae</a></li>
+            </ul>
+            </li>
+            <li><a href="pages/September.html">Events + Calendar</a></li>
          </ul>
-      </nav>
-      <h1>House of Elizabeth 1</h1>
-
-      <div id="accordion">
-
-      <ul>
-         <li><button class="button">Our Mission and Values</button>
-            <ol id="content">
-               <li> As Elizabethans, we aspire to be strong women of courage and discernment who are committed to following Christ’s lead together with dignity and grace. </li>
-               <li>We are <strong>grace</strong>. We are <strong>discernment</strong>.<br> We are <strong>monarchy</strong>.</li>
-            </ol>
-         </li>
-         <li><button>Why the House?</button>
-            <ol>
-               <li>
-                  The purpose of the House is to love and accept each and every member, to help her improve in her gifts and to support her as individual.
-               </li>
-            </ol>
-         </li>
-         <li><button>Namesake + History</button>
-            <ol>
-               <li>Queen Elizabeth I was known for her courage, strength, and grace. She models the attributes that we still seek to emulate today. QEI came from being abused and neglected by her father, hunted down by her sister, an outcast to the nation, but rose to be the woman and queen who ushered in the golden age, defeated the spanish armada, unified the protestant and catholic church, and expanded the British empire into the new world.</li>
-               <li>The House of QE1 has been around since 2004 and has grown into what it is now, with full Exec and Associate teams. </li>
-            </ol>
-         </li>
-      </ul>
       </div>
-      <p>"The end crowneth the work."<br> -Queen Elizabeth I
-      </p>
+      
+      <div class="row row-centered">
+      <div class="col-md-12">
+      <blockquote><h1>The end crowneth the work</h1><cite>-Queen Elizabeth I</cite></blockquote>
+     </div>
+      </div>
+      <div class="row row1">
+      <div class="col-md-6">
+         <h2>Our Mission and Values</h2>
+         </div>
+         <div class="col-md-6">
+               <p>As Elizabethans, we aspire to be strong women of courage and discernment who are committed to following Christ’s lead together with dignity and grace.</p>
+               <p>We are <strong>grace</strong>. We are <strong>discernment</strong>.<br> We are <strong>monarchy</strong>.</p>
+         </div>
+         </div>
+         <div class="row row1">
+         <div class="col-md-6">
+         <h2>Why the House?</h2>
+         </div>
+         <div class="col-md-6">
+                  <p>The purpose of the House is to love and accept each and every member, to help her improve in her gifts and to support her as individual.</p>
+                  </div>
+                  </div>
+         <div class="row row1">
+         <div class="col-md-6">
+         <h2>Namesake and History</h2>
+         </div>
+         <div class="col-md-6">
+               <p>Queen Elizabeth I was known for her courage, strength, and grace. She models the attributes that we still seek to emulate today. QEI came from being abused and neglected by her father, hunted down by her sister, an outcast to the nation, but rose to be the woman and queen who ushered in the golden age, defeated the spanish armada, unified the protestant and catholic church, and expanded the British empire into the new world.</p>
+               <p>The House of QE1 has been around since 2004 and has grown into what it is now, with full Exec and Associate teams. </p>
+               </div>
+               </div>
 
-      <footer>
-         <p>| &copy; Jessica Mathews |<a class="muffin" href="updates.html"> Contact |</a> <a class="butter" href="updates.html">Weekly Updates </a>|</p>
-      </footer>
-
-
-
+      <div class="navbar-static-bottom">
+         <p>| &copy; Jessica Mathews |<a href="pages/updates.html"> Contact |</a> <a class="butter" href="pages/updates.html">Weekly Updates </a>|</p>
+      </div>
    </body>
 </html>
 

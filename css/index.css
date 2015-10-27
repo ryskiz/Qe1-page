@@ -1,0 +1,72 @@
+body, html, .container-fluid {
+  height: 100%;
+}
+html {
+            background:url('https://cdn.rawgit.com/jessicamathews/qe1House/master/queens.JPG') no-repeat center fixed;
+            background-size: cover;
+}
+h1, h2, p, ul, li, cite {
+	color: rgba(200, 199, 204, 1);
+}
+p {
+	line-height: 1.5;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+body {
+	background-color: rgba(33, 22, 75, 0.71);
+	padding-top: 50px;
+}
+.navbar-fixed-top {
+	background: rgba(50,50,50,0.6);
+}
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
+.footer {
+	background-color: rgba(50,50,50,0.6);
+}
+h1 {
+	font-family: 'Old Standard TT', serif;
+	font-size: 120px;
+	}
+h2 {
+	font-family: 'Old Standard TT', serif;
+	font-size: 40px;
+}
+cite {
+	font-family: 'Old Standard TT', serif;
+	font-size: 50px;
+}
+ul li {
+	font-family: sans-serif;
+}
+body > .container {
+	padding-top: 60px;
+}
+.row-centered {
+	text-align: center;
+}
+blockquote {
+	border: none;
+	position: relative;
+	margin: 0 auto;
+}
+blockquote h1:before {
+	content: "\201C";
+	font-weight: bold;
+	font-size: 300px;
+	vertical-align: -0.4em;
+	line-height: 0.1em;
+	display: inline;
+
+}
+.row1{
+	background-color: rgba(52, 43, 90, 1);
+}
